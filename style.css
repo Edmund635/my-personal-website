@@ -2,11 +2,19 @@ body {
     background-image: url("https://phantom-marca.unidadeditorial.es/ad2f7cd9fa09c13b70deff5702f875b2/resize/1320/f/jpg/assets/multimedia/imagenes/2021/01/14/16106163021498.jpg");
   }
   html {
-    color: yellowgreen;
+    color: yellow;
+    text-align: center;
   }
 
   #contactinfo {
       table-layout: fixed;
       border: 1px solid;
-      border-collapse: collapse;
+      color: aquamarine;
+  }
+  #headerContact{
+      color: yellowgreen;
+  }
+  #tableDiv #contactinfo{
+    margin-left: auto;
+    margin-right: auto;
   }
